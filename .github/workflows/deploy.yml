@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; don't cancel a deployment that is in progress.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # Works out the URL prefix: '' for a custom domain, '/<repo>' otherwise.
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      # Resized images only need regenerating when public/images changes.
+      - uses: actions/cache@v4
+        with:
+          path: .cache/images
+          key: images-${{ hashFiles('public/images/**', 'image-widths.mjs') }}
+          restore-keys: images-
+
+      - run: npm ci
+
+      - run: npm run build
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY: ${{ vars.WEB3FORMS_ACCESS_KEY }}
+          NEXT_PUBLIC_CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          NEXT_TELEMETRY_DISABLED: 1
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

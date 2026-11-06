@@ -1,0 +1,175 @@
+{
+  "headerTitle": "SIMPLIFIED KUNDALINI YOGA SOCIETY",
+  "headerDescription": "A non-profit organisation in Singapore to achieve peace and harmony in society",
+  "navHome": "Home",
+  "navSkyCourses": "SKY Courses",
+  "navSkyYoga": "Pillars of SKY Yoga",
+  "navMediaReading": "Media and Reading",
+  "navAboutUs": "About Us",
+  "navNotificationsForms": "Notifications",
+  "selectLanguage": "Select a language",
+  "navContactUs": "Contact Us",
+  "navContactInfo": "Info",
+  "navContactSendMessage": "Send a message",
+  "navSkySocietySingapore": "SKY Society Singapore",
+  "navSkySocietyDescription": "Welcome to SKY Society Singapore. Explore more about our philosophy and services.",
+  "navAboutUsTitle": "About Us",
+  "navAboutUsDescription": "Learn more about SKY Society and its centres.",
+  "navOurGuruTitle": "Our Guru",
+  "navOurGuruDescription": "Discover the teachings of Vethathiri Maharishi.",
+  "navInPersonCoursesTitle": "In-Person Courses",
+  "navInPersonCoursesDescription": "Explore our in-person courses at various centres.",
+  "navOnlineCoursesTitle": "Online Courses",
+  "navOnlineCoursesDescription": "Join our online SKY courses from anywhere.",
+  "navCourseScheduleTitle": "Course Schedule",
+  "navCourseScheduleDescription": "View the schedule for both in-person and online courses.",
+  "navJoinNowTitle": "Join Now",
+  "navJoinNowDescription": "Sign up for SKY courses through our online enrolment form.",
+  "navSimplifiedSkyExercise": "Simplified Exercise",
+  "navSimplifiedKundaliniYoga": "Simplified Kundalini Yoga (SKY)",
+  "navKayaKalpaYoga": "Kaya Kalpa Yoga",
+  "navIntrospection": "Introspection",
+  "navBooksTitle": "Books",
+  "navBooksDescription": "Read and Learn Our Vethathiri Maharishi's books",
+  "navArticlesTitle": "Articles",
+  "navArticlesDescription": "Explore insightful articles on SKY and related topics.",
+  "navGalleryTitle": "Gallery",
+  "navGalleryDescription": "View our gallery of SKY events and activities.",
+  "navVideosTitle": "Video Resources",
+  "navVideosDescription": "Watch videos on SKY practices and philosophy.",
+  "navSkySocietyCentres": "SKY Society Centres",
+  "navSkySocietyCentresDescription": "Visit Our Centre at Singapore.",
+  "navWcsc": "WCSC",
+  "navPartnerCentres": "Partner Centres",
+  "navNotificationsTitle": "Important Notifications",
+  "navFormsTitle": "Forms",
+  "navAgmTitle": "AGMs",
+  "englishLanguage": "English",
+  "tamilLanguage": "Tamil",
+  "skySocietyAllRightsReserved": "Sky Society. All rights reserved.",
+  "emailPlaceholder": "your.example@gmail.com",
+  "exerciseTypesTitle": "Exercise Types",
+  "overallBenefitsTitle": "Overall Benefits",
+  "exerciseSectionTitle": "Simplified Physical Exercises",
+  "exerciseSectionDescription": "The system of physical exercises developed by Shri Vethathiri Maharishi after years of intense research, fulfills the need of maintaining the proper circulation of blood, heat, air, energy, and bio-magnetism, ensuring maintenance of health and prevention of disease in a gentle way. It develops the immune system and thus acts as a preventive and curative for various diseases.",
+  "exerciseSubtitle": "(Based on bio-magnetism)",
+  "overallBenefits": [
+    "Help in curing diseases",
+    "Prevent certain diseases",
+    "Increase the strength of the body and helps in long life",
+    "Enhance physical appearance",
+    "Remove laziness and keep oneself active",
+    "Strengthen heart, lungs, digestive system, brain, and nervous system",
+    "Strengthen eyes and vision becomes good",
+    "Increase the oxygen level in the blood",
+    "Help to reduce excessive sugar in urine and blood",
+    "Improve functioning of the endocrine system",
+    "Help in correcting uterine and menstrual disorders",
+    "Give good sleep",
+    "Regulate blood pressure",
+    "Help in curing heart ailments",
+    "Restore peace in mind and health in the body"
+  ],
+  "exercises": [
+    {
+      "title": "Hand Exercises",
+      "benefits": [
+        "Hands and shoulders are strengthened.",
+        "Arthritis, Numbness, Trembling of hands, Pain in the joints, etc. are reduced and possibly cured.",
+        "Improves the functioning of lungs."
+      ],
+      "image": "/images/hand-excercise.png"
+    },
+    {
+      "title": "Leg Exercises",
+      "benefits": [
+        "Blood circulation gets regulated in all parts of the legs and abdomen.",
+        "Is curative and preventive for sciatica and arthritis.",
+        "By giving pressure to the toes and sole, important organs of the body such as the heart, lungs, intestines, and brain are activated."
+      ],
+      "image": "/images/leg-excercise.png"
+    },
+    {
+      "title": "Breathing Exercises",
+      "benefits": [
+        "Strengthens the lower abdomen muscles.",
+        "Ventilates the lungs and purifies the blood.",
+        "Oxygenizes all the glands and organs.",
+        "Helps curing headache, insomnia, asthma, and other bronchial troubles.",
+        "Improves grasping power and memory."
+      ],
+      "image": "/images/breathing-exercise.png"
+    },
+    {
+      "title": "Eye Exercises",
+      "benefits": [
+        "Helps to improve defective eyesight by toning the nerves and tissues around the eyes.",
+        "Prevents eye strain, burning sensation, and other eye diseases."
+      ]
+    },
+    {
+      "title": "Kapalabhati",
+      "benefits": [
+        "Clears the congestion in the nasal passage.",
+        "Helps to cure sinusitis."
+      ]
+    },
+    {
+      "title": "Makarasana",
+      "benefits": [
+        "Regulates the endocrine system.",
+        "Keeps the spine and spinal nerves flexible and healthy.",
+        "Strengthens the backbone and spinal cord.",
+        "Reduces excessive sugar in urine and blood.",
+        "Removes unwanted flesh and strengthens the body.",
+        "Regulates the menstrual system."
+      ]
+    },
+    {
+      "title": "Acu pressure",
+      "benefits": [
+        "Blocks due to short-circuit of electrical energy are removed.",
+        "Is a preventive for heart ailments.",
+        "Is helpful in alleviating insomnia."
+      ]
+    },
+    {
+      "title": "Massaging",
+      "benefits": [
+        "Removes tension in all the important organs (liver, spleen, intestines, kidneys, pancreas).",
+        "Refreshes and tones the sense organs, facial nerves, and vital organs."
+      ]
+    },
+    {
+      "title": "Relaxation",
+      "benefits": [
+        "Brings down blood pressure.",
+        "Removes recurrence of heart trouble.",
+        "Gives a wholesome rest to the entire system."
+      ]
+    }
+  ],
+  "footerTitle": "SKY Society Singapore",
+  "subscribeTitle": "Subscribe to our newsletter",
+  "subscribePlaceholder": "Email Address",
+  "subscribeButton": "Subscribe",
+  "quickLinksTitle": "Quick Links",
+  "quickLinksPrivacyPolicy": "Privacy Policy",
+  "quickLinksTermsAndConditions": "Terms & Conditions",
+  "quickLinksContactUs": "Contact Us",
+  "quickLinksRefundPolicy": "Refund Policy",
+  "quickLinksFaq": "FAQ",
+  "language": "Language",
+  "quotesTitle": "Quotes",
+  "quotes": "Blessing is not possible unless the mind attains very subtle frequencies,when it is strong, lucid and calm",
+  "contactInfoTitle": "Contact Information",
+  "contactInfoAddressTitle": "Simplified Kundalini Yoga Society - Singapore :",
+  "contactInfoAddress": "546A Serangoon Road, Singapore 218168",
+  "contactInfoPhone": "(123) 456-7890",
+  "contactInfoEmailTitle": "Email: ",
+  "contactInfoEmail": "info@skysociety.org.sg",
+  "furtherInqueries": "For further enquiries or information, contact :",
+  "contactAgent1": "Mr. P Krishnamurthy - (+65) - 9638 7274",
+  "contactAgent2": "Mr. S Tharmaraj - (+65) - 9625 5145",
+  "contactAgent3": "Mr. Athikari Pillai - (+65) - 9655 6071"
+}
